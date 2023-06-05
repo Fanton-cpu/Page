@@ -2,9 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #0582CA;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     overflow-x: hidden;
+    background-color: #0582CA;
 }
 
 /* ENCABEZADO */
@@ -12,7 +23,7 @@ body {
 #menu li > a {
     font-size: 16px;
     font-weight: bold;
-    color: #00A6FB;
+    color: #051923;
 }
 
 #menu form > button {
@@ -42,3 +53,21 @@ body {
 
 /* INTRO */
 
+#intro {
+    background-color: #00A6FB;
+}
+
+
+/* FOOTER */
+
+#final {
+    background-color: #051923;
+    color: white;
+}
+
+
+
+@media (min-width: 850px){
+
+
+}
